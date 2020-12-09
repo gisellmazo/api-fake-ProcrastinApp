@@ -1,9 +1,9 @@
 const jsonServer = require('json-server');
 
-var db = require("./server-fake/db");
+const db = require("db.js");
 
 //libreria de node para archivs deservidor
-var fs = require('fs');
+const fs = require('fs');
 
 //crea servidor
 const server = jsonServer.create();
@@ -11,7 +11,7 @@ const server = jsonServer.create();
 
 fs.writeFileSync('/tmp/db.json', JSON.stringify(deb()));
 
-var router = jsonServer.router('./db.json');
+const router = jsonServer.router('/tmp/db.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
