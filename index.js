@@ -9,7 +9,7 @@ const fs = require('fs');
 const server = jsonServer.create();
 
 
-fs.writeFileSync('/tmp/db.json', JSON.stringify(deb()));
+fs.writeFileSync('/tmp/db.json', JSON.stringify(db()));
 
 const router = jsonServer.router('/tmp/db.json');
 const middlewares = jsonServer.defaults();
