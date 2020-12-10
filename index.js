@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 
-const db = require("db.js");
+const db = require("./db.js");
 
 //libreria de node para archivs deservidor
 const fs = require('fs');
