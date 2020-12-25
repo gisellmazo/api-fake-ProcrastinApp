@@ -10,11 +10,13 @@ module.exports = () => {
                 "usuario" : "gisellmazo13",
                 "contraseña" : "1214743656",
                 "tareas" : [
-                     "Hacer tarea de Historia",
-                     "Estudiar Inglés",
-                    "Ejercitarme",
-                    "Leer libro pendiente"
-                ]
+                    {
+                        "tarea1" : "Hacer tarea de Historia",
+                        "tarea2" : "Estudiar Inglés",
+                        "tarea3" : "Ejercitarme",
+                        "tarea4" : "Leer libro pendiente"
+                    }
+                ],
                 
             }
         ]
