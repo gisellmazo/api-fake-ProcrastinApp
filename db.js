@@ -10,7 +10,7 @@ module.exports = () => {
                 "email" : "gisellmazo@gmail.com",
                 "user" : "gisellmazo13",
                 "password" : "1214743656",
-                "tastk" : 
+                "task" : 
                     {
                         "task1" : "Hacer tarea de Historia",
                         "task2" : "Estudiar Inglés",
