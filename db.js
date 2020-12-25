@@ -2,19 +2,20 @@ const FAKER = require('faker')
 
 module.exports = () => {
     const data ={
-        "usuarios" : [
+        "users" : [
             {
                 "id" : "1",
-                "nombre" : "Gisell Mazo",
-                "correo" : "gisellmazo@gmail.com",
-                "usuario" : "gisellmazo13",
-                "contraseña" : "1214743656",
-                "tareas" : 
+                "name" : "Gisell",
+                "lastname": "Mazo",
+                "email" : "gisellmazo@gmail.com",
+                "user" : "gisellmazo13",
+                "password" : "1214743656",
+                "tastk" : 
                     {
-                        "tarea1" : "Hacer tarea de Historia",
-                        "tarea2" : "Estudiar Inglés",
-                        "tarea3" : "Ejercitarme",
-                        "tarea4" : "Leer libro pendiente"
+                        "task1" : "Hacer tarea de Historia",
+                        "task2" : "Estudiar Inglés",
+                        "task3" : "Ejercitarme",
+                        "task4" : "Leer libro pendiente"
                     },
                 
             }
