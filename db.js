@@ -10,13 +10,24 @@ module.exports = () => {
                 "email" : "gisellmazo@gmail.com",
                 "user" : "gisellmazo13",
                 "password" : "1214743656",
-                "tasks" : 
+                "tasks" : [
                     {
-                        "task1" : "Hacer tarea de Historia",
-                        "task2" : "Estudiar Inglés",
-                        "task3" : "Ejercitarme",
-                        "task4" : "Leer libro pendiente"
+                        "id": "2",
+                        "task": "Hacer tarea de Historia"
                     },
+                    {
+                        "id": "3",
+                        "task": "Estudiar Inglés"
+                    },
+                    {
+                        "id": "4",
+                        "task": "Ejercitarme"
+                    },
+                    {
+                        "id": "5",
+                        "task": "Leer libro pendiente"
+                    },
+                ]
                 
             }
         ]
