@@ -22,11 +22,7 @@ module.exports = () => {
                     {
                         "id": "4",
                         "task": "Ejercitarme"
-                    },
-                    {
-                        "id": "5",
-                        "task": "Leer libro pendiente"
-                    },
+                    }
                 ]
                 
             }
