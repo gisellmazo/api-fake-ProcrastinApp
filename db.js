@@ -52,6 +52,15 @@ module.exports = () => {
                     },
                 ]
                 
+            },
+            {
+                "id" : "3",
+                "name" : "Tomas",
+                "lastname": "Santos",
+                "email" : "tomas21@gmail.com",
+                "user" : "atomico",
+                "password" : "123456789"
+                
             }
         ]
     }
